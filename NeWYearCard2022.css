@@ -51,13 +51,13 @@ html {
     bottom: 10px;
     right: 20px;
     z-index: 30;
-   animation: fuwafuwa 0.5s infinite;
+   animation: fuwafuwa 1s infinite;
 }
 @keyframes fuwafuwa {
   0% {
     transform: translateY(0px);
   }
-  70% {
+  50% {
     transform: translateY(-10px);
   }
   100% {
